@@ -4,3 +4,11 @@ out = "out"
 libs = ["lib"]
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
+[fmt]
+line_length = 100
+bracket_spacing = true
+int_types = "long"
+number_underscore = "thousands"
+hex_underscore = "bytes"
+sort_imports = true
